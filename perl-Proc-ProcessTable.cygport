@@ -1,0 +1,10 @@
+CPAN_AUTHOR=jwb
+inherit perl
+
+NAME="perl-Proc-ProcessTable"
+VERSION=0.48
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl interface to the *NIX process table."
+
+PATCH_URI="0.48-cygwin-conv-path.patch"
